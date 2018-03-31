@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-#source /config
+source /config/vars
 cd /usr/src/icloud_photos_downloader
 
 # Make sure only one instance is running
