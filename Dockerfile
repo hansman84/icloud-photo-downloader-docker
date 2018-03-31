@@ -2,6 +2,7 @@ FROM ubuntu:latest
 
 ENV HOME /config
 ENV APPLE_ID steve@mac.com
+ENV PASSWORD 1234567
 
 # Install base packages
 RUN apt-get update \
